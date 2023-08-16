@@ -3,84 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome Email</title>
+    <link rel="stylesheet" href="public/maler.css">
+  
+        
 </head>
 <body>
-    <nav id="mainmenu">
-        <ul>
-            <li class="items"><a href="#about">About</a></li>
-            <li class="items"><a href="#workings">Work</a></li>
-            <li class="items"><a href="#images">Myself</a></li>
-            <li class="items"><a href="#Contact_me">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="effect">
-        <div class="image">
-            <img src="deakin.jpeg" alt="Deakin University Photo">
-            <div class="main_content">
-                <!-- <h4>Hi Everyone!!!</h4> -->
-                <p>Hey, I am Aditya</p>
-            </div>
-        </div>
+    <div class="container">
+        <form id="form" action='/subscribe' method="post">
+            <p>SIGN UP for our daily Insider </p>
+           
+            <input type="email" name="Email" placeholder="Enter Your Email Adress">
+            <button class="btn">
+                SUBSCRIBE
+            </button>
+        </form>
     </div>
 
-    <section id="about">
-        <div id="about">
-            <div class="main">
-                <img src="profilepicture.jpg" alt="my profile Photo">
-                <h3>About Me</h3>
-                <p>
-                    My name is Aditya, I am a student at Chitkara University, my major is software Engineering.
-                </p>
-                <p>
-                    I am a very fun loving person, I enjoy doing GYM everyday, and i love watching anime
-                </p>
-
-            </div>
-        </div>
-
-    </section>
-
-    <section id="workings">
-        <h3>My works</h3>
-        <div id="work">
-            <div class="work_items">
-                <a>
-                    <img src="gokuforms.jpg" alt="picture">
-                </a>
-                <p>GOKU ALL FORMS : This is a video project I am working on. This video includes all the super powerful forms of my favorite anime character goku.</p>
-            </div>
-            <div class="work_items">
-                <a >
-                    <img src="rccar.jpg" alt="">
-                </a>
-                <p>ARDUINO RC CAR: this was the project i made using arduino it was a fully fuctional bluetooth RC car</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="myimages">
-        <div id="image">
-            <div>
-                <img src="my1.jpg" alt="">
-            </div>
-            <div>
-                <img src="my2.jpg" alt="">
-            </div>
-            <div>
-                <img src="my3.jpg" alt="">
-            </div>
-            <div>
-                <img src="my4.jpg" alt="">
-            </div>
-        </div>
-    </section>
-
-
-
-   
-
+    
 </body>
 </html>
